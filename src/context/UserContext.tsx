@@ -64,60 +64,60 @@ const generateId = () => Math.random().toString(36).substr(2, 9);
 const mockUsers: User[] = [
   {
     id: '1',
-    name: 'John Doe',
-    email: 'john.doe@example.com',
-    phone: '+1-555-0123',
+    name: 'Vamsi',
+    email: 'vamsi@techcorp.com',
+    phone: '9182943537',
     company: {
-      name: 'Tech Solutions Inc.',
-      catchPhrase: 'Innovative technology solutions',
-      bs: 'synergistic solutions'
+      name: 'TechCorp Solutions',
+      catchPhrase: 'Innovation at its finest',
+      bs: 'cutting-edge technology solutions'
     },
     address: {
-      street: '123 Main St',
-      city: 'New York',
-      zipcode: '10001',
-      geo: { lat: '40.7128', lng: '-74.0060' }
+      street: '123 Tech Park Road',
+      city: 'Hyderabad',
+      zipcode: '500032',
+      geo: { lat: '17.3850', lng: '78.4867' }
     },
-    website: 'john-doe.com',
-    username: 'johndoe'
+    website: 'vamsi-tech.com',
+    username: 'vamsi'
   },
   {
     id: '2',
-    name: 'Jane Smith',
-    email: 'jane.smith@example.com',
-    phone: '+1-555-0456',
+    name: 'Jay Krishna',
+    email: 'jaykrishna@digitalventures.com',
+    phone: '9182943536',
     company: {
-      name: 'Design Studios LLC',
-      catchPhrase: 'Creative design solutions',
-      bs: 'innovative designs'
+      name: 'Digital Ventures Inc',
+      catchPhrase: 'Transforming digital experiences',
+      bs: 'digital transformation services'
     },
     address: {
-      street: '456 Oak Ave',
-      city: 'Los Angeles',
-      zipcode: '90210',
-      geo: { lat: '34.0522', lng: '-118.2437' }
+      street: '456 Innovation Street',
+      city: 'Bangalore',
+      zipcode: '560001',
+      geo: { lat: '12.9716', lng: '77.5946' }
     },
-    website: 'jane-smith.com',
-    username: 'janesmith'
+    website: 'jaykrishna-digital.com',
+    username: 'jaykrishna'
   },
   {
     id: '3',
-    name: 'Mike Johnson',
-    email: 'mike.johnson@example.com',
-    phone: '+1-555-0789',
+    name: 'Charan',
+    email: 'charan@creativestudios.com',
+    phone: '9182943535',
     company: {
-      name: 'Marketing Pro',
-      catchPhrase: 'Strategic marketing excellence',
-      bs: 'digital marketing'
+      name: 'Creative Studios LLC',
+      catchPhrase: 'Where creativity meets technology',
+      bs: 'creative design and development'
     },
     address: {
-      street: '789 Pine St',
-      city: 'Chicago',
-      zipcode: '60601',
-      geo: { lat: '41.8781', lng: '-87.6298' }
+      street: '789 Creative Hub',
+      city: 'Chennai',
+      zipcode: '600001',
+      geo: { lat: '13.0827', lng: '80.2707' }
     },
-    website: 'mike-johnson.com',
-    username: 'mikejohnson'
+    website: 'charan-creative.com',
+    username: 'charan'
   }
 ];
 
